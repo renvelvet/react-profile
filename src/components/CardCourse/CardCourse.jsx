@@ -1,5 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import "./CardCourse.css";
 function CardCourse(props) {
@@ -21,9 +21,9 @@ function CardCourse(props) {
         <h3>{props.title}</h3>
         <p>{props.desc}</p>
       </div>
-      <div className="card-icon">
+      {/* <div className="card-icon">
         <FontAwesomeIcon icon="faCoffee" />
-      </div>
+      </div> */}
     </div>
   );
 }

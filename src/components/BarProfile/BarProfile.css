@@ -2,8 +2,11 @@
   display: flex;
   /* flex-wrap: wrap; */
   flex-direction: row;
-  width: 50%;
+  width: 40%;
   margin: 50px auto 100px auto;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 @media screen and (max-width: 768px) {
@@ -13,13 +16,18 @@
   }
 }
 .block-ava {
-  width: 30%;
+  margin: 18px;
+  align-items: center;
 }
 .block-ava img {
   border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }
 .block-data {
   text-align: start;
+  width: 50%;
 }
 .block-data h4 {
   font-weight: 200;

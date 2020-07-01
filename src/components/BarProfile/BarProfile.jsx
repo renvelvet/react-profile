@@ -1,6 +1,6 @@
 import React from "react";
 import "./BarProfile.css";
-import avatar from "../../assets/ava.jpg";
+import avatar from "../../assets/ava2.jpg";
 function BarProfile() {
   return (
     <div className="bar-profile">
