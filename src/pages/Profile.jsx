@@ -34,6 +34,7 @@ function Profile() {
   return (
     <div className="profile">
       <BarProfile />
+      <h1>My Courses</h1>
       <div className="block-card">{cards}</div>
     </div>
   );
