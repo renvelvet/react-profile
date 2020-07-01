@@ -1,0 +1,20 @@
+.bar-profile {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  width: 50%;
+  margin: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.block-ava {
+  width: 30%;
+}
+.block-ava img {
+  border-radius: 50%;
+}
+.block-data {
+  text-align: start;
+}
+.block-data h4 {
+  font-weight: 200;
+}
