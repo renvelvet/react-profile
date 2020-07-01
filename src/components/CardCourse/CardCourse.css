@@ -1,9 +1,10 @@
 .card {
   display: flex;
+  flex-direction: row;
   width: 40%;
 }
 .card-video {
-  margin: 0 20px;
+  margin: 20px;
 }
 .card-data {
   text-align: start;
