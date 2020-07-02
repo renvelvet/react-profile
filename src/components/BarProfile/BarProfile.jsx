@@ -10,9 +10,14 @@ function BarProfile() {
       <div className="block-data">
         <h3>RESHA PUSPITA DEWI</h3>
         <h4>BOOTCAMP STUDENT</h4>
-        <h4>
-          "<em>Motto ceritanya</em>"
-        </h4>
+        <p>
+          "
+          <em>
+            Ngoding itu seru. Kalau Lo gak nikmatin ngoding, kemungkinannya cuma
+            1. Lo belajar di momen dan media yang kurang tepat!
+          </em>
+          "
+        </p>
       </div>
     </div>
   );
